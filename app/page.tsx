@@ -9,7 +9,6 @@ export default function Home() {
   });
   return (
     <main>
-      {/* Open the modal using document.getElementById('ID').showModal() method */}
       <dialog ref={modal} className="modal">
         <div className="modal-box flex flex-col justify-center items-center gap-4">
           <h3 className="font-bold text-lg">What's your name?</h3>
